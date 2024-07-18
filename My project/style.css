@@ -1,0 +1,64 @@
+li{
+    font-size: 20px;
+}
+body{
+    background-color: #cfe2ff;
+    color: #0d123a;
+}
+.product-items{
+    div{
+        background-color: #cfe2ff;
+        height: 100%;
+    }
+    p{
+        font-weight: 600;
+        color: #0d123a;
+    }
+    h2{
+        color: #0d123a;
+        font-weight: 700;
+    }
+}
+.price{
+    font-size: 20px;
+}
+#contact{
+    background-color: #cfe2ff;
+    padding:10px;
+    font-size: 18px;
+}
+@media screen and (max-width:649px) {
+    .home{
+        background-image: linear-gradient(to left , transparent , black), url("../laptopsss.jpeg") !important ;
+        color:white;
+        padding: 40px;
+        background-position: center;
+    }
+    .car-logos{
+        position: sticky;
+        top:0;
+    }
+}
+@media screen  and (min-width:650px){
+    .home{
+        background-image: linear-gradient(to left , transparent , black), url("../laptopsss.jpeg");
+        background-position: right;
+        color:white;
+        padding: 5rem 0;
+        article{
+            padding:3rem 12rem 0 2rem;
+            width:70%;
+            p{
+                color: #c4c4c4;
+            }
+        }
+        button{
+            margin-left: 2rem;
+        }
+    }
+}
+img{
+    background: linear-gradient(bottom, rgba(0, 0, 0, 0.15) , rgba(128, 128, 128, 0.272)) !important;
+    width:200px !important; 
+    padding: 20px !important;
+}
